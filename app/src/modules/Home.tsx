@@ -67,7 +67,7 @@ export default function Home({ createGame, joinGame }: Props) {
                     <a
                         className="underline"
                         target="_blank"
-                        href="https://github.com/PolusVault/chess"
+                        href="https://github.com/PolusVault/penguin"
                     >
                         view source
                     </a>
