@@ -116,13 +116,12 @@
     grid-area: opponent-info;
     align-self: end;
     margin-left: 0.5em;
-    padding: 1em 0;
     /* padding: 1em 0.3em; */
 }
 
 .my-info {
     grid-area: my-info;
-    padding: 1em 0;
+    /* padding: ; */
     margin-left: 0.5em;
     /* padding: 1em 0.3em; */
     /* justify-self: end; */
