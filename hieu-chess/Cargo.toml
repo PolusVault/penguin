@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "hieu-chess-lib",
+    "hieu-chess-wasm"
+]
