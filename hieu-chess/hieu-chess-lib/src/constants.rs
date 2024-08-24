@@ -8,6 +8,9 @@ pub const QUEEN_DELTAS: &'static [i8; 8] = &[16, -16, 1, -1, 17, 15, -17, -15];
 pub const KNIGHT_DELTAS: &'static [i8; 8] = &[14, 31, 18, 33, -14, -31, -18, -33];
 pub const KING_DELTAS: &'static [i8; 10] = &[1, 16, 17, 15, -1, -16, -17, -15, 2, -2];
 
+// visit these links for explanations
+// https://github.com/jhlywa/chess.js/issues/230
+// https://mediocrechess.blogspot.com/2006/12/guide-attacked-squares.html
 #[rustfmt::skip]
 pub const ATTACKS: &'static [u8; 239] = &[
   20, 0, 0, 0, 0, 0, 0, 24,  0, 0, 0, 0, 0, 0,20, 0,
