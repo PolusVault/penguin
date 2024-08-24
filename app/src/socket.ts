@@ -36,8 +36,6 @@ type ServerToClientEvents = {
     "make-move": (move: TMove) => void;
 };
 
-//PPPPPPPP/PqPPqPPP/PqPPqPPP/PqrrqPPq/PqPPqPqq/PqPPqqPq/PPPPqPPq/PPPPPPPP w - - 0 1
-
 // "undefined" means the URL will be computed from the `window.location` object
 const URL =
     import.meta.env.MODE === "production" ? undefined : "http://localhost:5000";
