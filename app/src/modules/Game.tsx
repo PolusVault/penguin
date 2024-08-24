@@ -144,7 +144,7 @@ export default function Game({ onOpponentMove, makeMove, leaveGame }: Props) {
 
     const extraCls = classNames({
         waiting: !opponent,
-        "overflow-hidden": opponent !== undefined,
+        // "overflow-hidden": opponent !== undefined,
     });
     const captures = chess.get_captures();
 
@@ -200,7 +200,7 @@ export default function Game({ onOpponentMove, makeMove, leaveGame }: Props) {
             <div className="my-info">
                 <PlayerInfo
                     playerInfo={{
-                        name: name === "" ? "anonymous" : name,
+                        name,
                         color: myColor,
                     }}
                 />

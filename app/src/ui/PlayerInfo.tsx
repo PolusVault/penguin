@@ -7,7 +7,9 @@ type Props = {
 export default function PlayerInfo({ playerInfo }: Props) {
     return (
         <div>
-            <p className="text-xl">{playerInfo.name}</p>
+            <p className="text-xl">
+                {playerInfo.name === "" ? "anonymous" : playerInfo.name}
+            </p>
         </div>
     );
 }
